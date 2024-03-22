@@ -1,0 +1,35 @@
+table{
+	width: 90%;
+	margin-top: 20px;
+	text-align: center;
+}
+table .thead{
+	height: 50px;
+	font-size: 16px;
+	background-color: #1a237e;
+	border-radius: 10px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.3),
+				inset -10px -10px 10px rgba(255,255,255,0.03);
+}
+table .second{
+	height: 40px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px rgba(0,0,0,0.09),
+				5px 5px 10px rgba(0,0,0,0.2);
+}
+table a{
+	color: #999;
+	text-decoration: none;
+}
+table a:hover{
+	color: red;
+}
+.alert{
+	margin: 10px;
+	padding: 10px;
+	width: 230px;
+	background-color: #1a237e;
+	border-radius: 10px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.3),
+				inset -10px -10px 10px rgba(255,255,255,0.03);
+}

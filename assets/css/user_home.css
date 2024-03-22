@@ -1,0 +1,139 @@
+@font-face{
+	font-family: my_PTSans;
+	src: url('../font/PTSans-Regular.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: my_PTSans;
+	
+}
+body{
+	background-color: #D1F2EB;
+	color: #1C2833;
+}
+.wrapper{
+	display: block;
+	height: 100vh;
+	position: relative;
+}
+.display-box{
+	width: 50%;
+	height: 600px;
+	border-radius: 30px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.09);
+	background-color: #fff;
+	position: absolute;
+	top: 0; bottom: 0;
+	right: 0; left: 0;
+	margin: auto;
+}
+.display-box .header-bar{
+	width: 80%;
+	height: 65px;
+	background-color: #ecf0f1;
+	border-radius: 30px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.09);
+	position: absolute;
+	top: 0; bottom: 450px;
+	right: 0; left: 0;
+	margin: auto;
+}
+.display-box a{
+	text-decoration: none;
+	color: #3498db;
+}
+.display-box a:hover{
+	border-bottom: 2px solid #3498db;
+}
+.dropdown{
+	display: inline;
+	position: relative;
+	bottom: 95px;
+	left: 120px;
+}
+.dropdown ul li{
+	list-style: none;
+}
+.dropdown ul .h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+.dropdown ul .link{
+	list-style: none;
+	position: relative;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	z-index: 10;
+}
+.dropdown ul .box li{
+	background-color: #fff;
+}
+.dropdown ul ul{
+	display: none;
+}
+.dropdown ul li:hover > ul{
+	display: block;
+	background-color: #FFF;
+	width: 150px;
+	height: 100px;
+	border: 2px solid #3498db;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.display-box .header-bar .img-fluid{
+	width: 110px; height: 110px;
+	display: inline;
+	border-radius: 50%;
+	position: relative;
+	bottom: 20px;
+	border: 5px solid #fff;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.header-bar .brand{
+	width: 140px;
+	height: auto;
+	display: inline;
+	position: relative;
+	bottom: 55px;
+	left: 55%;
+}
+.display-box .h3{
+	text-align: justify;
+	width: 80%;
+	position: absolute;
+	top: 180px; bottom: 0;
+	right: 0; left: 0;
+	margin: auto;
+	color: #7f8c8d;
+	font-size: 1.1em;
+}
+.display-box .btn-action{
+	position: absolute;
+	top: 100px; bottom: 0;
+	right: 0; left: 0;
+	margin: auto;
+	height: 50px;
+	width: 150px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 20px;
+	background-color: #E74C3C;
+	color: #fff;
+}
+.display-box .btn-action:hover{
+	background-color: #C0392B;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.2),
+				inset -10px -10px 10px rgba(255,255,255,0.09);
+}
+.h5{
+	width: 80%;
+	color: red;
+	position: relative;
+	top: 285px;
+	left: 150px;
+}

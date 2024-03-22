@@ -1,0 +1,208 @@
+
+@media(max-width: 1024px){
+	.header{
+		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.header .navbar{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+	}
+	.navbar img{
+		width: 130px;
+		height: auto;
+	}
+	.navbar ul li{
+		margin: 40px;
+	}
+	.part-one{
+ 		height: 90vh;
+ 	}
+ 	.container .image{
+ 		width: 80%;
+ 		margin-top: 50px;
+ 		height: 500px;
+ 	}
+ 	.upper-part h2{
+ 		padding-top: 10px;
+ 	}
+ 	.upper-part .btn-dnt{
+		margin-left: 50px;
+		margin-top: 20px;
+ 	}
+ 	.wrapper .drop-box{
+		width: 300px;
+		height: 350px;
+		margin: 0px;
+	}
+	.wrapper .fa-address-book, .fa-user-plus, .fa-users{
+		margin-top: 120px;
+		margin-bottom: 20px;
+		font-size: 6em;
+	}
+	.wrapper .drop-box .btn-click{
+		width: 120px; height: 40px;
+		font-size: 20px;
+	}
+	.right-part .box-window .box-little{
+		width: 100px; height: 100px;
+		padding: 5px;
+		border-radius: 20px;
+	}
+	.right-part .box-window{
+		margin-top: 30px;
+	}
+	.right-part .box-window .box-little h2{
+		margin-top: 10px;
+	}
+	.part-four{
+		height: 60vh;
+	}
+
+}
+
+
+@media(max-width: 768px){
+	.navbar img{
+		width: 100px;
+		height: auto;
+	}
+	.navbar ul li{
+		margin: 20px;
+	}
+	.container .image{
+ 		width: 50%;
+ 		margin-top: 100px;
+ 		height: 300px;
+ 	}
+ 	.upper-part h2{
+ 		padding-top: 30px;
+ 		padding-left: 20px;
+ 		font-size: 1.8em;
+ 	}
+ 	.upper-part p{
+ 		padding-top: 10px;
+ 		padding-left: 20px;
+ 		font-size: 1em;
+ 	}
+ 	.upper-part .btn-dnt{
+		margin-left: 20px;
+		margin-top: 20px;
+ 	}
+ 	.part-two .title .h2{
+ 		margin: 0;
+ 		padding-left: 20px;
+ 	}
+ 	.part-two .title p{
+ 		margin: 0;
+ 		padding-left: 20px;
+ 		margin-bottom: 0;
+ 	}
+ 	.lower-part .box{
+ 		padding: 0;
+ 		margin: 20px;
+ 		text-align: justify;
+ 	}
+ 	.part-three .h2{
+ 		margin: 0;
+ 		padding-left: 20px;
+ 	}
+ 	.part-three{
+ 		height: 220vh;
+ 	}
+ 	.part-three p{
+ 		margin: 0;
+ 		padding-left: 20px;
+ 		width: 90%;
+ 	}
+ 	.part-three .wrapper{
+ 		flex-direction: column;
+ 		height: 1500px;
+ 	}
+ 	.part-three .wrapper .drop-box{
+ 		width: 400px;
+ 		height: 450px;
+ 		margin-bottom: 40px;
+ 		margin-top: 10px;
+ 		margin-left: 80px;
+ 	}
+ 	.wrapper .fa-address-book, .fa-user-plus, .fa-users{
+		margin-top: 150px;
+		margin-bottom: 20px;
+		font-size: 8em;
+	}
+	.wrapper .drop-box .btn-click{
+		width: 140px; height: 50px;
+		font-size: 21px;
+	}
+ 	.part-four{
+ 		height: 80vh;
+ 	}
+ 	.part-four .container-about{
+ 		width: 95%;
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+ 	.part-four .container-about .left-part,p{
+ 		margin: 0;
+ 		padding-left: 20px;
+ 	}
+ 	.part-four .container-about .right-part{
+ 		height: 600px;
+ 	}
+ 	.part-four .container-about .right-part .alert .h2{
+ 		padding-left: 10px;
+ 	}
+ 	.part-four .container-about .right-part .alert .h3{
+ 		padding-left: 10px;
+ 		font-size: 1em;
+ 		width: 90%;
+ 	}
+ 	.container-about .box-window{
+ 		flex-direction: column;
+ 		padding-top: 20px;
+ 	}
+ 	.container-about .box-window .box-little{
+ 		width: 80%;
+ 		margin: 0;
+ 		margin-left: 30px;
+ 		margin-bottom: 20px;
+ 		padding: 0;
+ 	}
+ 	.footer{
+ 		flex-direction: column;
+ 		height: 120vh;
+ 	}
+ 	.footer .flex-box{
+ 		width: 90%;
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+ 	.footer .flex-box .formBox{
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+ 	.footer .flex-box .formBox input,textarea,button{
+ 		margin-left: 20px;
+ 		padding: 0;
+ 	}
+ 	.footer .last-Box .h2
+ 	{
+ 		margin: 0;
+ 		margin-top: 10px;
+ 		margin-bottom: 5px;
+ 		padding: 0;
+ 		text-align: center;
+ 	}
+ 	.footer .flex-box .foot{
+ 		text-align: center;
+ 		width: 100%;
+ 		margin: 0;
+ 		padding: 0;
+ 		font-size: 1.4em;
+ 	}
+}

@@ -1,0 +1,156 @@
+@font-face{
+	font-family: my_PTSans;
+	src: url('../font/PTSans-Regular.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: my_PTSans;
+}
+body{
+	background-color: #ecf0f1;
+	color: #1C2833;
+}
+.container{
+	display: block;
+	height: 100vh;
+}
+.container .left{
+	width: 50%;
+	height: 100vh;
+	float: left;
+	background-image: url('../images/sidepic.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.left .btn-back{
+	width: 50px;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	font-size: 22px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.left .btn-back:hover{
+	background-color: #2c3e50;
+	color: #fff;
+}
+.container .right{
+	width: 50%;
+	height: 100vh;
+	float: right;
+	position: relative;
+}
+.container .right .wrapper{
+	width: 80%;
+	height: 700px;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+}
+.right .wrapper h2{
+	text-align: center;
+	font-size: 4.2em;
+	color: #ff3838;
+}
+.right .wrapper p{
+	text-align: center;
+	font-size: 1.0em;
+	color: #84817a;
+	margin-bottom: 10px;
+}
+.wrapper table{
+	text-align: left;
+	margin-top: 30px;
+}
+.wrapper table label{
+	font-size: 20px;
+}
+.wrapper input,textarea{
+	width: 350px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #dfe6e9;
+	border-radius: 10px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.1),
+				inset -10px -10px 10px rgba(255,255,255,0.2);
+}
+.wrapper textarea{
+	height: 120px;
+}
+.wrapper table .btn-sumbit{
+	width: 250px;
+	height: 45px;
+	margin: 0;
+	margin-top: 20px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: #C62828;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px rgba(255,255,255,0.7),
+				5px 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper table .btn-clear{
+	width: 320px;
+	height: 45px;
+	margin: 0;
+	margin-top: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: #263238;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px rgba(255,255,255,0.7),
+				5px 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper table .btn-sumbit:hover{
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.2),
+				inset -10px -10px 10px rgba(255,255,255,0.2);
+}
+.wrapper table .btn-clear:hover{
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.2),
+				inset -10px -10px 10px rgba(255,255,255,0.09);
+}
+.wrapper .alert{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #EF9A9A;
+	width: 60%;
+	height: 40px;
+	border-radius: 10px;
+}
+.wrapper .alert p{
+	padding-top: 6px;
+	color: #B71C1C;
+}
+.wrapper .alert-green{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #81C784;
+	width: 60%;
+	height: 40px;
+	border-radius: 10px;
+}
+.wrapper .alert-green p{
+	padding-top: 6px;
+	color: #388E3C;
+}

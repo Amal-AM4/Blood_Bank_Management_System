@@ -1,0 +1,28 @@
+
+.side-right .display-box{
+	margin-top: 30px;
+	margin-left: 200px;
+	width: 400px;
+	height: 500px;
+}
+.display-box form p{
+	margin-bottom: 10px;
+}
+.display-box form input{
+	width: 80%;
+	height: 40px;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+.display-box form textarea{
+	width: 80%;
+	height: 100px;
+	padding: 10px 15px;
+	font-size: 18px;
+}
+.display-box form button{
+	width: 80%;
+	height: 40px;
+	font-size: 18px;
+	cursor: pointer;
+}

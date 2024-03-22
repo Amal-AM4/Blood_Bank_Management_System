@@ -1,0 +1,55 @@
+@font-face{
+	font-family: my_PTSans;
+	src: url('../font/PTSans-Regular.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: my_PTSans;
+}
+body{
+	background-color: #1a237e;
+	color: #fff;
+}
+.container{
+	width: 100%;
+}
+.side-left{
+	float: left;
+	width: 30%;
+	height: 100vh;
+	position: fixed;
+}
+.side-right{
+	float: right;
+	width: 70%;
+}
+.title{
+	font-size: 35px;
+	margin-top:80px;
+}
+.about{
+	font-size: 24px;
+}
+.box{
+	width: 800px;
+	height: 400px;
+	margin-top: 40px;
+	display: flex;
+}
+.box .little-box{
+	width: 150px;
+	height: 150px;
+	margin-right: 50px;
+	background-color: #1a237e;
+	color: #fff;
+	border-radius: 20px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.2),
+				inset -10px -10px 10px rgba(255,255,255,0.05);
+}
+.box .little-box p{
+	font-size: 30px;
+	margin-top: 20px;
+}

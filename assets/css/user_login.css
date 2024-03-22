@@ -1,0 +1,169 @@
+@font-face{
+	font-family: my_PTSans;
+	src: url('../font/PTSans-Regular.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: my_PTSans;
+}
+body{
+	background-color: #D1F2EB;
+	color: #1C2833;
+}
+.container{
+	display: block;
+	height: 100vh;
+	position: relative;
+}
+.container .wrapper{
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	margin: auto;
+	width: 60%;
+	height: 600px;
+	background: #fff;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.09);
+	border-radius: 30px;
+}
+.wrapper .left{
+	width: 50%;
+	height: 600px;
+	float: left;
+	background: url('../images/50426.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 30px 0px 0px 30px;
+}
+.wrapper .right{
+	width: 50%;
+	height: 600px;
+	float: right;
+	border-radius: 0px 30px 30px 0px;
+	position: relative;
+}
+.right .form{
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	margin: auto;
+	width: 80%;
+	height: 450px;
+}
+.form .fa-fingerprint{
+	margin-right: 5px;
+	font-size: 4.5em;
+	color: #2e86de;
+}
+.form table th{
+	text-align: left;
+	font-size: 2em;
+	line-height: .90em;
+	padding-left: 20px;
+}
+.right .form .alert{
+	background-color: #F1948A;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 65%;
+	height: 40px;
+	color: #C0392B;
+}
+.right .form .alert h5{
+	padding-top: 10px;
+}
+.form .form-control-one{
+	width: 90%;
+	height: 100px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.form .form-control-one:hover{
+	border-left: 5px solid #2e86de;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.09);
+}
+.form .form-control-one label{
+	display: block;
+	font-size: 1.2em;
+	margin-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	color: #909497;
+}
+.form .form-control-one input[type='text']{
+	display: block;
+	font-size: 18px;
+	margin-left: 10px;
+	width: 90%;
+	padding: 10px 20px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background: #e6e7ee;
+	border-radius: 10px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.1),
+				inset -10px -10px 10px rgba(255,255,255,0.3);
+}
+.form .form-control-two{
+	width: 90%;
+	height: 100px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.form .form-control-two:hover{
+	border-left: 5px solid #2e86de;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.09);
+}
+.form .form-control-two label{
+	display: block;
+	font-size: 1.2em;
+	margin-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	color: #909497;
+}
+.form .form-control-two input[type='password']{
+	display: block;
+	font-size: 18px;
+	margin-left: 10px;
+	width: 90%;
+	padding: 10px 20px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background: #e6e7ee;
+	border-radius: 10px;
+	box-shadow: inset 10px 10px 10px rgba(0,0,0,0.1),
+				inset -10px -10px 10px rgba(255,255,255,0.3);
+}
+.right .form button{
+	margin-top: 15px;
+	margin-left: 20px;
+	width: 85%; height: 50px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+	background: #34aaef;
+	
+}
+.right .form button:hover{
+	background: #0387d3;
+	box-shadow: inset 20px 20px 60px #0373b3, 
+            inset -20px -20px 60px #039bf3;
+}
+.right .form p{
+	margin-left: 45px;
+	margin-top: 30px;
+	font-size: 12px;
+}

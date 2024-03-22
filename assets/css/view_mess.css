@@ -1,0 +1,39 @@
+.jizz-box{
+	width: 90%;
+	height: 500px;
+	margin-top: 30px;
+	background-color: #1a237e;
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: -5px -5px 10px rgba(0,0,0,0.09),
+				5px 5px 10px rgba(0,0,0,0.3);
+}
+.jizz-box .header{
+	padding-top: 30px;
+	margin-left: 50px;
+}
+.jizz-box .h2{
+	margin-left: 50px;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.jizz-box .h3{
+	margin-left: 50px;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.jizz-box .h4{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.jizz-box .h5{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.jizz-box .h6{
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+.jizz-box .footer{
+	margin-left: 50px;
+}
